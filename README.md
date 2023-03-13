@@ -1,2 +1,2 @@
 # KimGirim
-나, 너를 가져야겠어 ‼️🤺 여러분 🙋🏻‍♀️ 안녕하세요 🤗 저는 🙆‍♀️ 김기림 🙆‍♀️ ‼️ 줄여서 긺🦒입니다 💫 잘 🙏 부탁드립니다 여러분 💚💛❤️💙🏃🏻‍♀️🤸‍♀️🏄‍♀️
+<img src="https://user-images.githubusercontent.com/93020734/224773474-8803e061-9013-42eb-ae76-c595e1a7263a.png" width="600" height="300" />
