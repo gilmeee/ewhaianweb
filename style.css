@@ -1,0 +1,19 @@
+h3{
+    text-shadow: 2px 2px yellowgreen;
+
+}
+
+ul > li {
+    display: inline;
+}
+.신촌{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+div{
+    padding: 24px;
+    background-color: pink;
+    opacity:0;
+}
+
