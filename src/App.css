@@ -1,0 +1,218 @@
+.App {
+  text-align: center;
+}
+
+.pink-bar {
+  background: hotpink;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+.logoimage {
+  width: 180px;
+  height: 80px;
+  background-size: cover;
+  background-position: left center;
+  float: left; /* 이미지를 왼쪽으로 정렬 */
+  margin-right: 20px; /* 로고 이미지와 메뉴 간격 조정 */
+  margin-top: 0px;
+}
+
+.menu {
+  color: #6e6f72;
+  margin-right: 70px;
+  text-align: right;
+  display: inline-block;
+}
+
+.menu .menu-text {
+  transition: color 0.2s;
+}
+
+.menu.hovered .menu-text {
+  color: hotpink;
+  content: "Ewhaian";
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center; /* 메뉴 항목을 오른쪽으로 정렬 */
+  align-items: center; /* 세로 가운데 정렬 */
+  height: 100%;
+}
+
+.menu.hovered {
+  color: hotpink;
+  cursor: pointer;
+}
+
+.menu .submenu {
+  display: none;
+  margin-top: 10px;
+  white-space: nowrap; /* 가로로 나열되도록 함 */
+}
+
+.menu:hover .submenu {
+  display: block;
+  position: absolute; /* submenu를 위치 조정하기 위해 */
+  background-color: white; /* submenu 배경 색상 설정 */
+  padding: 10px; /* submenu 패딩 설정 */
+  color: rgb(156, 153, 153);
+}
+
+.submenu-item {
+  display: inline; /* 가로로 나열되도록 함 */
+  margin-right: 30px;
+}
+
+.submenu-item:hover {
+  color: hotpink; /* hover 시 글자 색상 변경 */
+}
+
+
+.keyimage {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  margin-top: 15px; /* 이미지와 텍스트 사이 여백을 조절 */
+}
+
+.keyimage img {
+  width: 100px;
+  height: auto;
+}
+
+.login-container {
+  display: flex;
+  justify-content: left center;
+  align-items: left center;
+  height: 100%;
+  margin-top:40px;
+}
+
+.login-box {
+  border: 1px solid hotpink;
+  padding: 20px;
+  text-align: left;
+  border-radius: 5px; 
+}
+
+.login-form {
+  margin-top: 10px;
+}
+
+.login-button {
+  background-color: white;
+  color: hotpink;
+  border: 1px solid hotpink;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 80px;
+  height: 55px;
+  cursor: pointer;
+  align-self: flex-start; /* Align the button to the top */
+  position: relative;
+  top: -65px; /* Move the button up by 20px */
+  left: 70%; /* Move the button to the right by 80% */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  display: block;
+  margin-bottom: 5px; /* Reduce the margin to 5px */
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.register-button{
+  margin-right:10px;
+  background-color: pink;
+  color: white;
+  border: 1px solid hotpink;
+  text-align: center;
+  border-radius: 5px; 
+  position: relative; /* Add relative positioning */
+  top: -30px; 
+}
+
+.search-button{
+  background-color: darkgray;
+  color: white;
+  border: 1px solid grey;
+  text-align: center;
+  border-radius: 5px; 
+  position: relative; /* Add relative positioning */
+  top: -30px; 
+}
+
+.contents img{
+  margin-top:-100px;
+}
+
+.notice img {
+  margin-top: -590px;
+  margin-right: 5%;
+  float: right;
+}
+
+.certify img{
+  margin-top: -380px;
+  margin-right: 8%;
+  float: right;
+}
+
+.facebook img{
+  margin-top: -310px;
+  margin-right: 8%;
+  float: right;
+}
+
+.insta img{
+  margin-top: -240px;
+  margin-right: 8%;
+  float: right;
+}
+
+.blog img{
+  margin-top: -170px;
+  margin-right: 8%;
+  float: right;
+}
+
+.gibu img{
+  margin-top: -100px;
+  margin-right: 8%;
+  float: right;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
