@@ -1,0 +1,71 @@
+body {
+  background-color: #FEF8F0;
+  font-family: 'Arial', sans-serif; 
+}
+
+.App {
+  text-align: center;
+  background-color: #FEF8F0;
+}
+
+.App-logo {
+  height: 100px; 
+  margin-top: -100px;
+}
+
+.App-header {
+  background-color: #FEF8F0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background-color: #D0D9F2; 
+  padding: 20px;
+  margin-top: 80px;
+  width: 500px; 
+  height: 300px;
+  color: darkgray;
+}
+
+.login-input {
+  width: 90%;
+  height: 6%;
+  padding: 15px;
+  margin: 8px 0;
+  border: none;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.login-button {
+  background-color: #FFD7C1;  
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+  padding: 10px 20px;
+  border: 1px solid #BDF2DF;
+  border-radius: 5px;
+  width: 97%;
+  height: 60px;
+  margin-top: 30px; /* Space from the last input field */
+  cursor: pointer;
+}
+
+.signup-prompt {
+  margin-top: 20px;
+  color: #698E81;
+  font-family: 'Noto Serif KR', serif;
+}
+
+.App-link {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Noto Sans KR', sans-serif;
+  margin-bottom: 10px;
+}
+
